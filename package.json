@@ -21,7 +21,7 @@
     "re-emitter": "^1.0.0",
     "split": "^1.0.0",
     "through2": "^0.6.3",
-    "trim": "0.0.1"
+    "trim": ">=0.0.3"
   },
   "devDependencies": {
     "tap-spec": "2.1.1",
@@ -44,5 +44,11 @@
   "bugs": {
     "url": "https://github.com/scottcorgan/tap-out/issues"
   },
-  "homepage": "https://github.com/scottcorgan/tap-out"
+  "homepage": "https://github.com/scottcorgan/tap-out",
+  "overrides": {
+    "trim": ">=0.0.3"
+  },
+  "resolutions": {
+    "trim": ">=0.0.3"
+  }
 }
